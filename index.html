@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Screen Recorder</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-gray-800 text-white">
     <header class="bg-gray-900">
       <div class="container mx-auto flex justify-center items-center py-4">
-        <h1 class="text-2xl font-bold uppercase">Screen Recorder</h1>
+        <h1 class="text-2xl font-bold uppercase">
+          CaptureVision
+          <h5 class="text-gray-500">Lite</h5>
+        </h1>
       </div>
     </header>
 
@@ -20,33 +27,35 @@
         <video
           src=""
           autoplay
-          class="video-feedback bg-black w-full h-auto mb-4"
+          class="video-feedback bg-black w-full h-auto mb-4 rounded-xl"
         ></video>
         <div class="flex justify-center items-center -mx-4 mb-8">
           <button
-            class="start-recording mx-4 flex-1 bg-[#196DDD] rounded-md p-2 uppercase text-lg font-bold transition duration-300 hover:opacity-90 disabled:opacity-50"
+            class="start-recording mx-4 flex-.5 bg-[#196DDD] rounded-full p-4 uppercase text-md font-bold transition duration-300 hover:opacity-90 disabled:opacity-50"
           >
             Start Recording
           </button>
           <button
-            class="stop-recording mx-4 flex-1 bg-red-500 rounded-md p-2 uppercase text-lg font-bold transition duration-300 hover:opacity-90 disabled:opacity-50"
+            class="stop-recording mx-4 flex-.5 bg-red-500 rounded-full p-4 uppercase text-md font-bold transition duration-300 hover:opacity-90 disabled:opacity-50"
             disabled
           >
             Stop Recording
           </button>
         </div>
-        <div class="recorded-video-wrap hidden">
+        <div
+          class="recorded-video-wrap hidden flex flex-col items-center mt-20"
+        >
           <h2 class="text-xl text-[#D4E9FA] uppercase font-light mb-4">
             Download Your Video...
           </h2>
           <video
             src=""
-            class="recorded-video bg-black w-full h-auto mb-4"
+            class="recorded-video rounded-xl bg-black w-full h-auto mb-4"
           ></video>
-          <div class="flex justify-center items-center -mx-4 mb-8">
+          <div class="flex justify-center items-center mb-8 w-72">
             <a
               href=""
-              class="download-video text-center mx-4 flex-1 bg-[#0156E0] rounded-md p-4 uppercase text-lg font-bold transition duration-300 hover:opacity-90 disabled:opacity-50"
+              class="download-video text-center justify-center mx-4 flex-1 flex-row bg-[#3497E6] rounded-full p-2 uppercase text-md font-bold transition duration-300 hover:opacity-90 disabled:opacity-50"
               disabled
             >
               Download Video
@@ -59,3 +68,4 @@
     <script src="./main.js"></script>
   </body>
 </html>
+
