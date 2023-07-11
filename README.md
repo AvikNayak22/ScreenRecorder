@@ -1,9 +1,9 @@
-# Screen Recorder Tool
+# CaptureVision Lite
 
-Screen Recorder is a web application that allows you to record your screen along with audio from your microphone. It provides a simple and intuitive interface for starting and stopping the recording, as well as downloading the recorded video.
+CaptureVision Lite is a web application that allows you to record your screen along with audio from your microphone. It provides a simple and intuitive interface for starting and stopping the recording, as well as downloading the recorded video.
 
 ## Demo
-You can see a live demo of the Screen Recorder Tool <a href="https://aviknayak22.github.io/Screen-Recorder-Tool/" target="_blank"> here </a>.
+You can see a live demo of the CaptureVision Lite <a href="https://aviknayak22.github.io/CaptureVision-Lite/" target="_blank"> here </a>.
 
 ## Features
 
