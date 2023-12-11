@@ -1,17 +1,16 @@
-# CaptureVision Lite
+# ScreenRecorder
 
-CaptureVision Lite is a web application that allows you to record your screen along with audio from your microphone. It provides a simple and intuitive interface for starting and stopping the recording, as well as downloading the recorded video.
+ScreenRecorder allows you to record your screen along with audio from your microphone. 
 
 ## Demo
-You can see a live demo of the CaptureVision Lite <a href="https://aviknayak22.github.io/CaptureVision-Lite/" target="_blank"> here </a>.
+You can see a live demo here: https://aviknayak22.github.io/CaptureVision-Lite
 
 ## Features
 
-- Record your screen with audio from your microphone.
-- Start and stop the recording with ease.
-- Download the recorded video in MP4 format.
+- Record your screen with audio or without audio.
+- Download recorded video in MP4 format.
 - Video feedback to see what is being recorded.
-- Responsive design for a seamless experience on different devices.
+- Responsive design.
 
 ## Technologies Used
 
@@ -30,11 +29,6 @@ To run the Screen Recorder locally, follow these steps:
 5. Click the `Stop Recording` button to stop the recording and generate the video.
 6. The recorded video will be displayed on the page, and you can click the `Download Video` button to download it.
 
-## Contributing
-Contributions to the Screen Recorder project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-
-> This README provides an overview of the project, its features, technologies used, instructions for getting started, and information about contributing. Remember to adjust the content based on your specific project and requirements.
 
 
 
